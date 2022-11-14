@@ -1,6 +1,8 @@
 # mermaid
 Mermaid experiments
 
+## Graphs and Flowcharts
+
 ```mermaid
 graph TD;
   A-->B;
@@ -21,4 +23,24 @@ graph TD;
   d --> a;
   e --> a;
   e --> b;
+```
+
+## Sequence diagrams
+
+```mermaid
+sequenceDiagram
+  participant Alice
+  participant Bob
+  
+  Alice->>John: Hello John, how are you?
+  
+  loop Healthcheck
+    John->>John: fight against hypochondria
+  end
+  
+  Note right of John: Rational toughts <br/>prevail!
+  
+  John-->>Alice: Great!
+  John->>Bob: How about you?
+  Bob-->>John: Jolly good!
 ```
