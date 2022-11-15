@@ -78,3 +78,18 @@ Class01 : int chimp
 Class01 : int gorilla
 Class08 <--> C2: Cool label
 ```
+
+## Git graphs
+
+```mermaid
+gitGraph
+  commit
+  commit
+  branch develop
+  commit
+  commit
+  commit
+  checkout main
+  commit
+  commit
+```
